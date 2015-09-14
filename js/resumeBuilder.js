@@ -51,6 +51,9 @@ bio.display = function () {
 		$('#skills').append(formattedSkill);
 	}
 
+	// footer contacts
+	$("#footerContacts").append(formattedLocation, formattedGithub, formattedMobile, formattedEmail);
+
 	inName();
 };
 
