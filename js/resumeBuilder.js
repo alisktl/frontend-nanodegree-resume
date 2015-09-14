@@ -20,7 +20,6 @@ var bio = {
 
 // function for displaying BIO
 bio.display = function () {
-	'use strict';
     var formattedName = HTMLheaderName.replace(data, bio.name),
         formattedRole = HTMLheaderRole.replace(data, bio.role),
         formattedPhoto = HTMLbioPic.replace(data, bio.bioPic),
@@ -145,7 +144,6 @@ var work = {
 
 // function for displaying jobs
 work.display = function() {
-	'use strict';
 	for(var i = 0; i < work.jobs.length; i++) {
 		var job = work.jobs[i];
 
@@ -182,7 +180,6 @@ var projects = {
 
 // function for displaying projects
 projects.display = function() {
-	'use strict';
 	for(var i = 0; i < projects.projects.length; i++) {
 		var project = projects.projects[i];
 
